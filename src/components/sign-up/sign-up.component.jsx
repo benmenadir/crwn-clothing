@@ -3,7 +3,7 @@ import {auth, createUserProfileDocument} from "../../firebase/firebase.utils";
 import CustomButton from "../custom-button/custom-button.component";
 import FormInput from "../form-input/form-input.component";
 
-
+import './sign-up.styles.scss';
 
 class SignUp extends React.Component {
 	constructor() {
@@ -95,8 +95,8 @@ class SignUp extends React.Component {
 					/>
 
 					<CustomButton type='submit'>SIGN UP</CustomButton>
-				</form>
 
+				</form>
 			</div>
 		);
 	}
